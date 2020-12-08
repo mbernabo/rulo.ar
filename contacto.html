@@ -7,23 +7,25 @@
 </head>
 
 <body>
-  <table>
+  <!-- <table>
     <tr>
       <td>
         <h3>Cómo contactarme:</h3>
         <ul>
           <li><a href="tel:+5491131459419">Teléfono</a></li>
-          <li><a href="mailto:mbernabo@gmail.com?subject=Hola! Desde tu página Web." target="_blank">E-mail</a></li>
+          <li><a href="mailto:mbernabo@gmail.com?subject=Hola! Desde tu sitio Web." target="_blank">E-mail</a></li>
           <li><a target="_blank" href="https://www.google.com/maps/place/Av.+Rivadavia+2101-2199,+C1034ACA+CABA/@-34.609522,-58.399128,17z/data=!3m1!4b1!4m5!3m4!1s0x95bccae853998f1f:0xde369d89f086d8e7!8m2!3d-34.609522!4d-58.3969393">Dirección</a>
           </li>
         </ul>
       </td>
     </tr>
+    -->
     <tr>
       <td>
-        <hr>
+
+      <!--  <hr> -->
         <h3>Ingresá tus datos para contactarte conmigo:</h3>
-        <form action="mailto:mbernabo@gmail.com" target="_blank "method="post" enctype="text/plain">
+        <form action="mailto:mbernabo@gmail.com?subject=Hola! Desde tu sitio Web" target="_blank "method="post" enctype="text/plain"; charset=utf-8">
           <label>Nombre:</label>
           <input type="text" name="Nombre" value="">
 
@@ -42,7 +44,8 @@
           <br>
           <textarea name="Mensaje" rows="8" cols="80"></textarea>
           <br>
-          <input type="submit" name="">
+          <input type="submit" name="" value="Enviar">
+          <input type="button" name="" value="Volver" onclick="history.back()">
         </form>
       </td>
     </tr>
